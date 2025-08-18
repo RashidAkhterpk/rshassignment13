@@ -1,0 +1,367 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url(Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "RobotoBlack";
+    src: url(Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: "RobotoMedium";
+    src: url(Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "RobotoRegular";
+    src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "CarlitoBold";
+    src: url(Carlito-Bold.ttf);
+}
+
+@font-face {
+    font-family: "CarlitoRegular";
+    src: url(Carlito-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Futurak";
+    src: url(Futurak.ttf);
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    body {
+        background-color: black;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    body {
+        background-color: black;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 2000px) {
+
+    body {
+        background-color: black;
+    }
+}
+
+.navbar {
+    display: inline-block;
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    font-family: "CarlitoRegular";
+}
+
+.img {
+    width: 12%;
+    /* width: 100px;
+    height: 50x; */
+    /* width: 150px;
+    height: 70px; */
+    /* margin-right: 250px; */
+    padding-left: 100px;
+    padding-right: 400px;
+    padding-top: 10px;
+    display: inline-block;
+
+}
+
+a {
+    color: white;
+    margin-right: 50px;
+    position: relative;
+    top: -30px;
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+/* button {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px 20px;
+    outline: none;
+    position: relative;
+    top: -40px;
+    border-color: white;
+    background-color: black;
+    color: white;
+} */
+
+
+.btn1 {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px 20px;
+    outline: none;
+    position: relative;
+    top: -40px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-family: "CarlitoRegular";
+}
+
+.btn2 {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px 20px;
+    outline: none;
+    position: relative;
+    top: -40px;
+    border-color: rgb(207, 8, 8);
+    background-color: rgb(207, 8, 8);
+    color: white;
+    display: inline-block;
+    font-family: "CarlitoRegular";
+}
+
+.img2 {
+    width: 100%;
+}
+
+h1,
+h2 {
+    font-family: "CarlitoRegular";
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* p {
+    font-family: "CarlitoRegular";
+    color: white;
+    margin-left: 32%;
+} */
+
+.para {
+    font-family: "CarlitoRegular";
+    color: white;
+    margin-left: 32%;
+}
+
+.cardsection {
+    width: 90%;
+    height: 300px;
+    margin-left: 100px;
+    justify-content: center;
+    /* border: 1px solid white; */
+    display: inline-block;
+}
+
+.card {
+    background-color: white;
+    height: 120px;
+    /* width: 350px; */
+    /* border: 1PX SOLID white; */
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.card1{
+        /* background-color: white; */
+    height: 120px;
+    /* width: 350px; */
+    /* border: 1PX SOLID white; */
+    display: inline-block;
+    margin-left: 20px;
+text-align: center;
+}
+.CardBtn {
+    background-color: white;
+    position: relative;
+    top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+    text-decoration: none;
+    outline: none;
+    margin-left: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+    font-family: "CarlitoBold";
+    font-size: 15px;
+    /* margin-bottom: 100px; */
+}
+.ImgGw{
+    width: 90%;
+    margin-left: 50px;
+}
+.fran {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(17, 17, 17);
+    text-align: left;
+    font-family: "CarlitoRegular";
+    display: inline-block;
+    /* border: 1px solid white;
+    align-content:center;
+    align-items: center; */
+}
+
+.pf1 {
+    text-align: left;
+    margin-left: none;
+    color: green;
+}
+
+h3 {
+    color: red;
+    text-align: left;
+}
+
+.FranImg {
+    display: inline-block;
+}
+
+.franchise {
+    display: inline-block;
+}
+
+.location {
+    display: inline-block;
+    margin-left: 150px;
+    padding-right: 30px;
+    /* width: 300px;
+    border: 1px dotted red; */
+}
+
+.cardsection1 {
+    width: 90%;
+    height: 1300px;
+    margin-left: 100px;
+    justify-content: center;
+    /* border: 1px solid white; */
+    display: inline-block;
+}
+
+h4,
+h5 {
+    color: white;
+}
+
+.card1>.crdimg {
+    width: 350px;
+    height: 300px;
+}
+
+.CardBtnGw {
+    background-color: white;
+    position: relative;
+    top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+    text-decoration: none;
+    outline: none;
+    margin-left: 50px;
+    color: white;
+    background-color: green;
+    border: 1px solid gray;
+    font-family: "CarlitoBold";
+    font-size: 15px;
+}
+
+.CardBtnGw:hover {
+    background-color: black;
+    border-color: green;
+}
+
+.cardsection2 {
+    width: 100%;
+    /* border: 1px solid white; */
+    display: inline-block;
+}
+
+.cardsection2>.card2{
+    display: inline-block;
+}
+.cardsection2>.card2>.imgGw {
+    width: 100%;
+    height: 250px;
+}
+
+.cardsection2>.card2>.imgGw{
+
+       width: 100px;
+    height: 200px; 
+}
+.cardsection3 {
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cardsection3>.card3>.h5crd {
+    color: black;
+}
+
+.fran>.location>.BtnFrn {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+    text-decoration: none;
+    outline: none;
+    margin-left: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-family: "CarlitoBold";
+    font-size: 15px;
+}
+
+.cardsection3>.card3>.h5crd5{
+    color: red;
+}
+.h5crd5{
+    color: red;
+}
+.pbtm{
+    color: white;
+}
+
+.navbarbtm{
+    width: 350px;
+}
+
+.imgbtm{
+    width: 100%;
+}
+
+.navbarbtm>.navbarbtm>.imgbtm{
+    width: 100%;
+}
+
+.navbarbtm{
+    display: inline-block;
+}
